@@ -1,0 +1,420 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFFCC;
+    font-family: 'Lato', Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+.barraDeNavegacion{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 50px;
+    background-image: url(./imagenes/imagen\ fondo.png);
+    background-repeat: no-repeat;
+    background-position: 80%;
+    
+}
+
+.barraDeNavegacion2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 50px;
+    background-image: url(./imagenes/imagen\ fondo.png);
+    background-repeat: no-repeat;
+    background-position: 80%;
+    
+}
+
+
+.logo{
+    padding: 0px 20px;
+}
+        
+.titulo{
+    font-weight: 900;   
+    font-size: 12px;   
+}
+h1{
+    margin-top: 15px;
+}
+
+
+
+
+ul, ol {
+    list-style:none;
+}
+
+.barra > li {
+    float:left;
+}
+
+.barra li a {
+    color:white;
+    font-weight: 900;      
+    text-decoration:none;
+    padding:10px 5px;
+    margin-left: 5px;
+    display:block;
+    border-style: solid;
+    border-color: rgb(0, 174, 239);
+    border-radius: 10px;
+    background-color: rgba(0, 175, 239, 0.329);;
+
+}
+
+.barra li a:hover {
+    background-color: rgba(0, 175, 239);
+    border-color: rgb(0, 174, 239);
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+}
+
+.barra li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+    background-color:#FFFFCC;
+}
+
+.barra li:hover > ul {
+    display:block;
+}
+
+.barra li ul li {
+    position:relative;
+}
+
+.barra li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+
+
+.parrafo{
+    font-size: 18px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-top: 40px;   
+}
+
+.parrafo p{
+    padding: 0px 250px;
+    margin-top: 1px;
+}
+
+footer{
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 14px;
+}
+
+.contacto p{
+padding: 0px;
+margin-top: 0;
+}
+
+
+/*productos*/
+
+caption{
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+td{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.titulotabla{
+    background-color: rgb(0, 174, 239);
+    color: white;
+    font-weight: 900;
+    padding: 10px 5px;
+}
+
+.final{
+    font-weight: 900;
+}
+.reguladas{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 40px 100px;
+    align-items: center;
+}
+
+.imagenesfuentes{
+    padding-top: 25px;
+}
+.imagenesfuentesreguladas{
+    padding-top: 5px;
+}
+
+
+/*fuentes leds*/
+.led1, .led2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*fuentes variables*/
+.variables{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    }
+
+/*control*/
+h4{
+    text-align: center;
+}
+
+.controlcaja{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.control{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.tablacontrol{
+    margin-right: 20px;
+}
+
+/*contacto*/
+.contact{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 40px 50px;
+}
+
+
+
+
+
+.formu{
+    text-align: center;
+}
+
+.box-input{
+        display: block;
+
+    }
+.insertar{
+   
+    border: 2px solid black;
+    border-radius: 25px;
+    color: black;
+    font-size: 16px;
+    margin: 10px 0px;
+    outline: none;
+    padding: 10px 20px;
+    
+}
+.boton{
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #48bb78;
+	border: solid 2px #48bb78;
+    color: #fff;
+    font-weight: 400;
+}
+
+.boton:hover{
+	background-color: #2F855A;
+	border: solid 2px #2F855A;
+}
+
+.direccion{
+    display:flex;
+    flex-direction: column;
+}
+
+.detalle{
+    margin-top: 25px;
+}
+
+.mapa{
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*pantallas 1000px*/
+@media only screen and (max-width: 1000px){
+
+    .barraDeNavegacion{
+        background-image:none; 
+    }
+    
+    .barra li a {
+        color:black;
+    
+    }
+    .mapa{
+        display: none;
+    }
+
+    .reguladas{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+
+
+    .imagenesfuentes{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .imagenesfuentesreguladas{
+        padding-left: 5px;
+    }
+
+    .parrafo p{
+        padding: 0px 100px;
+    }
+}
+
+
+/*pantallas tablet*/
+@media only screen and (max-width: 800px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    .barraDeNavegacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 50px;
+    }
+    .barra li a {
+        margin-top: 10px;
+    }
+
+    .contact{
+        display:flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        align-content: center;
+        padding: 40px 50px;
+        justify-content: space-around;  
+    }
+
+    .formu{
+        margin-top: 20px;
+    }
+
+    h4{
+        width: 80%;
+    }
+    .parrafo p{
+        padding: 0px 80px;
+        margin-top: 1px;
+    }
+}
+
+/*pantallas movil*/
+@media only screen and (max-width: 500px){
+    .reguladas{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        flex-wrap: wrap; 
+        padding: 40px 0px;
+    }
+    .tabla{
+        margin-left: 0;
+        margin-right: 0;
+        align-self: center;
+        width: 80%;
+    }
+
+
+    .imagenesfuentes{
+        width: 80%;
+    }
+    .imagenesfuentesreguladas:nth-child(2n){
+        display: none;
+    }
+    .control{
+    margin-top: 20px;
+    flex-direction: column;
+    }
+
+    .parrafo p{
+        padding: 0px 50px;
+        margin-top: 1px;
+    }
+
+}
+
+/*pantallas movil*/
+@media only screen and (max-width: 400px){
+
+
+    .tabla{
+        width: 80%;
+    }
+
+    .imagenesfuentes{
+        width: 80%;
+}
+
+
+}
+

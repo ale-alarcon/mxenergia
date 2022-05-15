@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MX Sistemas de Energia</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./imagenes/icono_png.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2985cb9559.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <header>
+        <nav class="barraDeNavegacion">
+            <div class="titulo">
+                <img src="./imagenes/logoMXfondo.jpg" class="logo" alt="logo">
+                <h1>Fuentes de alimentación switching</h1>
+            </div>
+            <div id="header">
+                <ul class="barra">
+                    <li><a href="./index.html"> Empresa</a></li>
+                    <li><a href=""> Productos</a>
+                        <ul>
+                            <li><a href="./reguladas.html">Fuentes reguladas</a></li>
+                            <li><a href="./fuentesleds.html">Fuentes para leds</a></li>
+                            <li><a href="./variables.html">Fuentes Variables</a></li>
+                            <li><a href="./cargadores.html" >Cargadores</a></li>
+                            <li><a href="./convertidores.html" >Convertidores</a></li>
+                            <li><a href="./control.html" >Control</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+    
+        </nav>
+
+    </header>
+
+    <section class="contact">
+        <div class="direccion">
+            <img src="./imagenes/ima4.JPG">
+            <div class="detalle">
+            <p>San pablo 189, Turdera, Buenos Aires, Argentina</p>
+            <p> <i class="fa-solid fa-phone"></i> Teléfonos: 011-4214-3687 / 011-2093-4730</p>
+            <p> <i class="fa-solid fa-envelope"></i> Correo electrónico: info@mxenergia.com.ar</p>
+            </div>
+        </div>
+        <div class="formu">
+            <h2>Contacto</h2>
+            <form action="" id="formulario" class="formulario" name="formulario">
+                <div class="box-input">
+                    <label for="nombre">Nombre</label>
+                    <br>
+                    <input class="insertar" name="nombre" id="nombre" type="text">
+                </div>
+                <div class="box-input">
+                    <label for="apellidos">Apellido</label>
+                    <br>
+                    <input class="insertar" name="apellidos" id="apellidos" type="text">
+                </div>
+                <div class="box-input">
+                    <label for="emal">Email</label>
+                    <br>
+                    <input class="insertar" name="email" id="email" type="email">
+                </div>
+                <button id="submit" type="submit" class="boton" onclick="formulario_envia()"><i class="fab fa-whatsapp"></i> Enviar WhatsApp</button>
+            </form>
+        </div>
+        
+        
+    </section>
+    <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.3813610940097!2d-58.41360665635225!3d-34.796346188800165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd30f35bce391%3A0x5b56df4c58bb8fd!2sCGB%2C%20San%20Pablo%20189%2C%20B1833%20Turdera%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1650794893534!5m2!1ses-419!2sar" width="800" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapita"></iframe>
+        </div>
+
+   
+
+    </script>   
+
+    <script src="validar.js"></script>
+    <script src="whatsapp.js"></script>
+</body>
+</html>
